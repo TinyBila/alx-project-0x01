@@ -1,5 +1,7 @@
+"import { PostProps }" from "@/components/Post";
 import Header from "@/components/layout/Header";
-
+// Removed invalid type annotation
+onSubmit: (post: UserProps) => void;
 const Home: React.FC = () => {
   return (
     <div className="flex flex-col h-screen">
