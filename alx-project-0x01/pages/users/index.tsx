@@ -49,7 +49,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      posts:map,
+      posts:Map,
     },
   };
 }

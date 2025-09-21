@@ -1,5 +1,5 @@
 // Already have PostProps, PostData, PostModalProps...
-
+onSubmit: (post: UserProps): undefined => void;
 export interface UserData {
   id?: number;
   name: string;
